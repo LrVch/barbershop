@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Барбершоп «Бородинский»</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!--header-->
+    <header class="main-header">
+        <div class="container clearfix">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Информация</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Новости</a>
+                    </li>
+                    <li class="active">
+                        <a href="price.html">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="login.html" class="login">Вход</a>
+            </div>
+        </div>
+    </header>
+    <!--maim content-->
+    <div class="container">
+        <h1 class="content-title">Прайс-лист</h1>
+        <!--breadcrumbs-->
+        <div class="breadcrumbs">
+            <a href="">Главная</a>
+            <span>Прайс-лист</span>
+        </div>
+        <h1 class="section-title">Истинно мужская классика</h1>
+        <div class="price clearfix">
+            <div class="price-tools">
+                <h2 class="price-tools-title">
+                    Мы используем только лучшие средства:
+                </h2>
+                <ul>
+                    <li>Baxter of California</li>
+                    <li>Mr Natty</li>
+                    <li>Suavecito</li>
+                    <li>Malin+Goetz</li>
+                </ul>
+            </div>
+            <div class="price-cost">
+                <h2 class="price-cost-title">
+                    Цены на услуги наших мастеров:
+                </h2>
+                <table>
+                    <tr>
+                        <td>Срижка</td>
+                        <td>1500 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка бороды</td>
+                        <td>500 р.</td>
+                    </tr>
+                    <tr>
+                        <td>Накрутка усов</td>
+                        <td>350 р.</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <h2 class="about-us-title">
+            Несколько слов о нас:
+        </h2>
+        <div class="about-us-content clearfix">
+            <div class="about-us-left">
+                <p>Наша парикмахерская занимается исключиттельно мужскими стрижками. Стрижка каждого клиента для нас - это уникалная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+            </div>
+            <div class="about-us-right">
+                <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <section class="footer-contacts">
+                Барбершоп «Бородинский»
+                <br>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
+                <br>
+                <a href="#">Как нас найти?</a>
+                <br>телефон: +7 (495) 666-02-66
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
+                <p>Дизайн сайта:</p>
+                <a href="#" class="btn">htmlacademy.ru</a>
+            </section>
+        </div>
+    </footer>
+    <!--модальное окно входа в личный кабинет-->
+    <div class="login_window">
+        <form action="#" method="post">
+            <div class="close close_login"></div>
+            <h1>Личный кабинет</h1>
+            <p>Введите пожалуйста свой логин и пароль
+                <br>Если вы забыли пароль</p>
+            <input type="text" name="login" id="name" placeholder="Логин">
+            <input type="password" name="pass" id="password" placeholder="Пароль">
+            <div class="clearfix">
+                <input type="checkbox" name="memory" id="memory" checked>
+                <label for="memory">Запомните меня</label>
+                <a href="#">Я забыл пароль!</a>
+            </div>
+            <button type="submit">Войти</button>
+        </form>
+    </div>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

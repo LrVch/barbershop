@@ -1,0 +1,24 @@
+.gallery-content {
+    height: 240px;
+    overflow: auto;
+    font-size: 0;
+    background: #fff;
+    line-height: .8EM;
+}
+.gallery-content img {
+    width: 124px;
+    height: auto;
+    margin-right: 10px;
+  margin-bottom: 10px;
+    font-size: 14px;
+
+}
+.gallery-content img:nth-child(2n) {
+    margin-right: 0;
+}
+.nosccript {
+    display: inline-block;
+}
+.gallery .btn {
+    display: none;
+}
